@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header class="titulo"> 
+            <h3>FORMULARIO DE IDENTIFICACIÓN DE INICIATIVAS DE MANEJO <br> INTEGRAL Y SUSTENTABLE DE BOSQUES</h3>
+        </header>  
+
+          <div class="contenido">
+            <form name="data_form" id="data_form">
+              <div class="form_item">
+                <h4> <strong>1.</strong> Aspectos Generales</h4>
+
+                <div class="content_item">
+                  <div class="item">
+                  <div class="tag">Departamento:</div>
+                  <select class="select" name="departamento" id="departamento">
+                      <option value="0">Elija...</option>
+                      <option value="1">La Paz</option>
+                      <option value="2">Oruro</option>
+                      <option value="3">Potos&iacute;</option>
+                      <option value="4">Chuquisaca</option>
+                      <option value="5">Tarija</option>
+                      <option value="6">Cochabamba</option>
+                      <option value="7">Santa Cruz</option>
+                      <option value="8">Beni</option>
+                      <option value="9">Pando</option>
+                    </select>  
+                </div>  
+                 
+                <div class="item">
+                  <div class="tag">Municipio:</div>
+                  <select class="select" name="municipio" id="municipio">
+                      <option value="0">Elija...</option>
+                      <option value="1">La Paz</option>
+                      <option value="2">Oruro</option>
+                      <option value="3">Potos&iacute;</option>
+                      <option value="4">Chuquisaca</option>
+                      <option value="5">Tarija</option>
+                      <option value="6">Cochabamba</option>
+                      <option value="7">Santa Cruz</option>
+                      <option value="8">Beni</option>
+                      <option value="9">Pando</option>
+                    </select>  
+                </div>    
+                </div>
+
+
+                <div class="content_item">
+                  <div class="item">
+                  <div class="tag">Provincia:</div>
+                   <select class="select" name="provincia" id="provincia">
+                      <option value="0">Elija...</option>
+                      <option value="1">La Paz</option>
+                      <option value="2">Oruro</option>
+                      <option value="3">Potos&iacute;</option>
+                      <option value="4">Chuquisaca</option>
+                      <option value="5">Tarija</option>
+                      <option value="6">Cochabamba</option>
+                      <option value="7">Santa Cruz</option>
+                      <option value="8">Beni</option>
+                      <option value="9">Pando</option>
+                    </select>  
+                </div>  
+                 
+                <div class="item">
+                  <div class="tag">Comunidad:</div>
+                  <select class="select" name="comunidad" id="comunidad">
+                      <option value="0">Elija...</option>
+                      <option value="1">La Paz</option>
+                      <option value="2">Oruro</option>
+                      <option value="3">Potos&iacute;</option>
+                      <option value="4">Chuquisaca</option>
+                      <option value="5">Tarija</option>
+                      <option value="6">Cochabamba</option>
+                      <option value="7">Santa Cruz</option>
+                      <option value="8">Beni</option>
+                      <option value="9">Pando</option>
+                    </select>  
+                </div>    
+              </div>
+
+              <div class="georef">
+                  <div class="tag">Georeferenciaci&oacute;n:</div><br>
+                  <div class="tag">Latitud:</div>
+                  <input type="text" class="number" id="latitud"/>
+                  <div class="tag">Longitud:</div>
+                  <input type="text" class="number" id="longitud"/>
+                </div>    
+              </div>      
+
+
+              <div class="form_item">
+                <h4> <strong>2.</strong> Informaci&oacute;n de la iniciativa, programa, proyecto o plan</h4>
+
+                  <div class="iniciativa">
+                  <div class="tag">Nombre de la Iniciativa, programa, proyecto o plan:</div>
+                  <input type="text" class="nombre" id="nom_iniciativa"/>
+                  </div> 
+                  <div class="institucion">
+                  <div class="tag">Instituci&oacute;n financiera:</div>
+                  <input type="text" class="nombre" id="institucion"/><br>
+                  </div> 
+                  <div>
+                    <label class="tag"><input type="radio" name="optradio">P&uacute;blica</label>
+                    <label class="radio-inline"><input type="radio" name="optradio">Privada</label>
+                    <label class="radio-inline"><input type="radio" name="optradio">Sociedad Civil</label>  
+                  </div>
+                   
+                  
+                  <div class="aprovechamiento">
+                  <div class="tag">Superficie aproximada de aprovechamiento:</div>
+                  <input type="text" class="nombre" id="aprovechamiento"/><br>
+                  </div>
+                  <div class="comun_dentro">
+                  <div class="tag">Que comunidades estan dentro de la iniciativa, programa, proyecto</div>
+                  <input type="text" class="nombre" id="comun_dentro"/><br>
+                  </div>
+                  <div>
+                  <div class="tag">Cuantas familias beneficiadas:</div>
+                  <input type="number" class="number" id="familias"/>
+                  </div>
+              </div>   
+                  
+              <div class="form_item">
+                  <div class="iden_com">
+                  <div class="tag">Como se identifican las comunidades:</div>
+                  <input type="text" class="nombre" id="iden_com"/><br>
+                  </div>
+                  <div class="uni_social">
+                  <div class="tag">Unidad social de conformaci&oacute;n territorial:</div>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Comunidad o tierra colectiva</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Territorio comunitario de origen (TCO)</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Territorio ind&iacute;gena originario campesino (TIOC)</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Propiedad individual</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Organizaci&oacute;n o asociaci&oacute;n</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Sindicato</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Organizaci&oacute;n territorial de base (OTB)</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Otro...</label>
+                  </div>
+                  
+
+                  <div class="mantener">
+                  <div class="tag">Porque se ha decidido mantener el bosque:</div>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Conservací&oacute;n</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Estancia</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Extraci&oacute;n de madera u otro producto del bosque</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Falta de dinero para invertir</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Falta de tiempo para cultivar</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Terreno no apto para el cultivo</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Fuente de agua (vertiente) </label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Otro...</label>
+                  </div>
+
+                  <div class="actividad">
+                  <div class="tag">Cual es la principal actividad de la zona:</div>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Agricultura</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Ganaderia</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Comercio</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Turismo</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Producci&oacute;n forestal</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Industria</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Mineria</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Servidores p&uacute;blicos</label>
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox" value="">Otro...</label>
+                  </div>
+                  <div>
+                  <div class="tag">Indique el n&uacute;mero de familias beneficiadas:</div>
+                  <input type="number" class="number" id="familias"/>
+                  </div>
+                  <div>
+                  <div class="tag">Cuantos años de experiencia se tiene en este tipo de actividad:</div>
+                  <input type="number" class="number" id="familias"/>
+                  </div>
+
+              </div>
+
+              <div class="form_item">
+                <label class="radio-inline"><input type="radio" name="optradio">Option 1</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Option 2</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Option 3</label>    
+              
+
+
+                <div class="radio">
+                  <label><input type="radio" name="optradio">Option 1</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optradio">Option 2</label>
+                </div>
+                <div class="radio disabled">
+                  <label><input type="radio" name="optradio" disabled>Option 3</label>
+                </div>    
+
+
+              </div>
+
+
+              <div class="form_item">
+
+                <label class="checkbox-inline"><input type="checkbox" value="">Option 1</label>
+                <label class="checkbox-inline"><input type="checkbox" value="">Option 2</label>
+                <label class="checkbox-inline"><input type="checkbox" value="">Option 3</label>    
+
+
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 2</label>
+                </div>
+                <div class="checkbox disabled">
+                  <label><input type="checkbox" value="" disabled>Option 3</label>
+                </div>    
+              </div>
+             
+
+              </div>
+            
+
+            </form>
+
+          </div>
+
+
+
+
+
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
